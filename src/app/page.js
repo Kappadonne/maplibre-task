@@ -3,7 +3,7 @@ import { useEffect, useRef, useState } from "react";
 import maplibregl from "maplibre-gl";
 import classes from "./page.module.css";
 
-import data from "../../transit-stations.geojson";
+import data from "./transit-stations.geojson";
 
 export default function Home() {
   const mapPlacer = useRef(null);
